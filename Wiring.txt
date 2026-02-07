@@ -10,3 +10,9 @@ The pin marked SCL on the Si5351 should be connected to the PB2 (Pin 7) connecti
 The clock output connections will depend on your individual target projects.
 
 Both the Si5351 and ATTiny85 boards used in this project will run safely off 5v.
+
+QT Stemma wiring is shown in the Assembly_Images folder.
+
+In my case, SDA was blue and connected to P0 with SCL being yellow and connected to P2.
+
+Your cable harnesses may vary.
