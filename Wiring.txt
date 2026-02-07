@@ -1,0 +1,12 @@
+Wiring is simple.
+
+5v should be taken from a regulated source on your host machine
+GND should also be taken from GND on your machine.
+
+The pin marked SDA on the Si5351 should be connected to the PB0 (Pin 5) connection on your ATTiny85 dev board.
+
+The pin marked SCL on the Si5351 should be connected to the PB2 (Pin 7) connection on your ATTiny85 dev board.
+
+The clock output connections will depend on your individual target projects.
+
+Both the Si5351 and ATTiny85 boards used in this project will run safely off 5v.

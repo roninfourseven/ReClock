@@ -1,0 +1,28 @@
+The BoM is relatively short:
+
+1x Si5351 clock generator board
+1x ATTiny85 dev board
+1x ATTiny85 microcontroller
+
+
+I'd recommend only 2 Si5351 boards:
+
+1. https://thepihut.com/products/adafruit-si5351a-clock-generator-with-stemma-qt-8khz-to-160mhz
+
+This is a smaller footprint board that has QTE connectors that makes assembly to the ATTiny85 board simple.
+
+2. https://thepihut.com/products/adafruit-si5351a-clock-generator-breakout-board-8khz-to-160mhz
+
+Slightly larger than the other board and all connections mist be soldered.
+
+Whilst these boards are good quality and from a known supplier, they aren't the cheapest and I'd suggest shopping around for the best prices.
+
+3. https://www.amazon.co.uk/dp/B09Z296YKS?ref=ppx_yo2ov_dt_b_fed_asin_title
+
+This is my preferred ATTiny board since it has a socket for the ATTiny85. I needed the IC to be removable for programming. You can use an SMD based item like this: https://www.amazon.co.uk/dp/B07MB8Y8SF?ref=ppx_yo2ov_dt_b_fed_asin_title
+
+However the ATTiny85 has a bootloader installed which adds a 6 second delay into the start time.
+
+With the bootloader gone the ATTiny starts and send the config to the Si5351 immediately on power up. Unless you can tolerate that delay you will need to remove the bootlader.
+
+I would source ATTiny85's wherever you can get them at the best price.
