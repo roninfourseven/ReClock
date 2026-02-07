@@ -1,0 +1,5 @@
+Clock output 0 configured as 3.546894MHz PAL Master clock
+Clock output 1 4.433618Mhz PAL Colourburst clock
+Clock output 2 3.579575 Mhz NTSC Master clock
+
+ATTiny idle light interval 100Ms
