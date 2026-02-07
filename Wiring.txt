@@ -1,7 +1,9 @@
 Wiring is simple.
 
-5v should be taken from a regulated source on your host machine
-GND should also be taken from GND on your machine.
+5v should be taken from a regulated source on your host machine and connected to 5v in on the ATTiny85 board.
+GND should also be taken from GND on your machine and connected to GND in on the ATTiny85 board.
+
+The ATTiny85 and Si5351 should have their 5v and GND connections connected. This allows boath boards to power on simultaneaously.
 
 The pin marked SDA on the Si5351 should be connected to the PB0 (Pin 5) connection on your ATTiny85 dev board.
 
