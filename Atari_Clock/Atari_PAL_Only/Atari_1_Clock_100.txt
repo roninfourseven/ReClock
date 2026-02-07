@@ -1,1 +1,3 @@
 Clock output 0 configured as 3.546894MHz PAL Master clock
+
+ATTiny idle light interval 100Ms
