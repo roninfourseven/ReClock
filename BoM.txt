@@ -13,7 +13,7 @@ This is a smaller footprint board that has QTE connectors that makes assembly to
 
 2. https://thepihut.com/products/adafruit-si5351a-clock-generator-breakout-board-8khz-to-160mhz
 
-Slightly larger than the other board and all connections mist be soldered.
+Slightly larger than the other board and all connections must be soldered.
 
 Whilst these boards are good quality and from a known supplier, they aren't the cheapest and I'd suggest shopping around for the best prices.
 
